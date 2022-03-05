@@ -1,6 +1,6 @@
 import React from "react";
-import earth from "../images/earth.jpg";
-import mtn from "../images/mtn.jpg";
+// import earth from "../images/earth.jpg";
+// import mtn from "../images/mtn.jpg";
 
 function Main(){
     return  <main className= "pg-wrapper">

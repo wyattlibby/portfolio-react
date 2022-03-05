@@ -235,7 +235,7 @@ main {
   color: var(--secondary);
 }
 
-/* images loaded to html*/ */
+/* images loaded to html*/ 
  /* .surf {
   background-image: url("./images/mtn.jpg");
 }
@@ -254,11 +254,11 @@ main {
 
 /*media queries*/
 /* Cards are split into two columns at 992px or smaller */
-@media screen and (max-width: 992px) {
+ @media screen and (max-width: 992px) {
   /* Change the header color */
   header {
     background: #772014;
-  }
+  } 
 }
 
 /* Cards are stacked on top of each other at 768px or smaller */

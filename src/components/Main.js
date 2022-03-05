@@ -1,11 +1,11 @@
 import React from "react";
-// import earth from "../images/earth.jpg";
-// import mtn from "../images/mtn.jpg";
+import earth from "../images/earth.jpg";
+import mtn from "../images/mtn.jpg";
 
 function Main(){
     return  <main className= "pg-wrapper">
 
-<section className="banner">
+<section style= {{backgroundImage: `url(${mtn})`}} className="banner">
         <div>
             <h2>Welcome to my portfolio</h2>
         </div>
@@ -31,7 +31,7 @@ function Main(){
 
             <div className="work-container">
 
-                <a href="https://wyattlibby.github.io/MTB/" className="flex-item surf">
+                <a href="https://wyattlibby.github.io/MTB/"  style= {{backgroundImage: `url(${earth})`}} className="flex-item surf">
                     <div>
                         <h3>MTB</h3>
                         <span>HTML/CSS/JS</span>
@@ -40,35 +40,35 @@ function Main(){
                 </a>
 
 
-                <a href="https://wyattlibby.github.io/Weather-app/" className="flex-item led">
+                <a href="https://wyattlibby.github.io/Weather-app/" style= {{backgroundImage: `url(${earth})`}} className="flex-item led">
                     <div>
                         <h3>Weather-app</h3>
                         <span>HTML/CSS/JS</span>
                     </div>
                 </a>
 
-                <a href=" https://wyattlibby.github.io/project-2-group-a/" className="flex-item led">
+                <a href=" https://wyattlibby.github.io/project-2-group-a/" style= {{backgroundImage: `url(${earth})`}} className="flex-item led">
                     <div>
                         <h3>Full stack project</h3>
                         <span>Javascript/CSS/Handlebars</span>
                     </div>
                 </a>
 
-                <a href="#" className="flex-item calc">
+                <a href="#" style= {{backgroundImage: `url(${earth})`}} className="flex-item calc">
                     <div>
                         <h3>Calculator</h3>
                         <span>React/Javascript/CSS</span>
                     </div>
                 </a>
 
-                <a href="#" className="flex-item puzzles">
+                <a href="#" style= {{backgroundImage: `url(${earth})`}} className="flex-item puzzles">
                     <div>
                         <h3>Pastel Puzzles</h3>
                         <span>MERN Stack</span>
                     </div>
                 </a>
 
-                <a href="#" className="flex-item run">
+                <a href="#" style= {{backgroundImage: `url(${earth})`}} className="flex-item run">
                     <div>
                         <h3>Run Buddy</h3>
                         <span>HTML/CSS</span>
